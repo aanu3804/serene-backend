@@ -1,0 +1,8 @@
+Flask
+flask-cors
+werkzeug
+python-dotenv
+groq
+pyttsx3
+pydub
+SpeechRecognition
