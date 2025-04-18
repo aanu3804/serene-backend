@@ -5,4 +5,5 @@ python-dotenv
 groq
 pyttsx3
 pydub
+gTTS
 SpeechRecognition
