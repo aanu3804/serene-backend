@@ -24,7 +24,8 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-CORS(app, supports_credentials=True)
+CORS(app, origins=["https://serene-pied.vercel.app"], supports_credentials=True)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 UPLOAD_FOLDER = "uploads"
 AUDIO_FOLDER = "static/audio"
